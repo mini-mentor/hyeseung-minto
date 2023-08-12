@@ -74,6 +74,13 @@ h4 {
     color: #4b4b4b;
 }
 
+h5 {
+    font-weight: 500;
+    margin-left: 38vw;
+    margin-top: 0.8vmin;
+    color: #9c9c9c;
+}
+
 .motive {
     width: 73vw;
     height: 35vmin;
