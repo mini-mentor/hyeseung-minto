@@ -6,7 +6,7 @@ search.addEventListener('click', () => {
 
 const mentee = document.getElementById("mentee");
 mentee.addEventListener('click', () => {
-    console.log(2);
+    location.href = "http://127.0.0.1:8080/mentee.html"
 });
 
 const mentor = document.getElementById("mentor");
