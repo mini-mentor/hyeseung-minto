@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" as="style" crossorigin
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css"/>
+    <title>메인</title>
+</head>
+<body>
+
+<div class="search-text">
+    <input type="text" name="search" placeholder="무엇이 필요하시나요?" autofocus>
+</div>
+
+<button type="button" class="search-btn" id="search-btn">
+    <img src="images/돋보기.svg" alt="">
+</button>
+
+<div class="support">
+    <button type="button" class="support-mentee" id="mentee">멘티로<br>지원하기
+        <img src="images/멘티.svg" alt="" class="support-img1">
+    </button>
+    <button type="button" class="support-mentor" id="mentor">멘토로<br>지원하기
+        <img src="images/멘토.svg" alt="" class="support-img2">
+    </button>
+</div>
+
+<div class="contents">
+    <div class="title1">
+        <h1>이번주 일정</h1>
+    </div>
+
+    <div class="container-week-plan">
+        <p class="week-plan">공덕역 4번출구 프론트원 <br> 3층 오픈스페이스</p>
+        <img src="images/로고.png" alt="" class="logo">
+        <p class="week-clock">17:00</p>
+        <p class="week-date">2023.07.29 (토)</p>
+    </div>
+
+    <div class="title2">
+        <h1>이번주 과제</h1>
+    </div>
+
+    <div class="container-study">
+        <label class="control-label sp-label">
+            <input checked="" class="check" type="checkbox">
+            메인 화면 구현하기
+        </label>
+
+        <br>
+
+        <label class="control-label sp-label">
+            <input checked="" class="check" type="checkbox">
+            카카오 인가코드와 토큰 받아오기
+        </label>
+
+        <br>
+
+        <label class="control-label sp-label">
+            <input checked="" class="check" type="checkbox">
+            promise, async/await 개념 및 예제
+        </label>
+
+        <br>
+
+        <label class="control-label sp-label">
+            <input checked="" class="check" type="checkbox">
+            콜백함수의 차이
+        </label>
+    </div>
+
+    <div class="enter"></div>
+</div>
+
+<div class="navbar">
+    <input type="radio" name="navbar" id="nav-btn1" value="home" checked>
+    <label for="nav-btn1">
+        <img src="images/홈.svg" class="navbar-img" alt=""><br>홈
+    </label>
+
+    <input type="radio" name="navbar" id="nav-btn2" value="calendar">
+    <label for="nav-btn2">
+        <img src="images/일정.svg" class="navbar-img" alt=""><br>일정</label>
+
+    <input type="radio" name="navbar" id="nav-btn3" value="history">
+    <label for="nav-btn3">
+        <img src="images/히스토리.svg" class="navbar-img" alt=""><br>히스토리</label>
+
+    <input type="radio" name="navbar" id="nav-btn4" value="profile">
+    <label for="nav-btn4">
+        <img src="images/마이페이지.svg" class="navbar-img" alt=""><br>마이페이지</label>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

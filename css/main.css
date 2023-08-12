@@ -1,0 +1,284 @@
+* {
+    margin: 0 auto;
+    height: 0;
+    border: 0;
+    font-family: "Pretendard Variable", serif;
+}
+
+.search-text {
+    z-index: 0;
+    text-align: center;
+    padding-top: 12%;
+}
+
+input[type=text] {
+    position: relative;
+    width: 75vw;
+    height: 11vmin;
+    background-color: #F2F2F2;
+    color: #9F9F9F;
+    font-size: 3.6vw;
+    font-weight: 500;
+    border-radius: 20px;
+    padding-left: 5%;
+    z-index: 99999;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: transparent;
+}
+
+.support {
+    padding-top: 11vmin;
+    text-align: center;
+    z-index: 0;
+}
+
+.search-btn {
+    position: relative;
+    width: 8vmin;
+    height: 8vmin;
+    margin-left: 80vw;
+    padding-top: 2vh;
+    z-index: 99999;
+}
+
+.support-mentee {
+    width: 38vw;
+    height: 47vmin;
+    text-align: left;
+    color: white;
+    font-weight: 800;
+    font-size: 5vw;
+    background-color: #00D2BD;
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-left: 3%;
+    padding-left: 4%;
+    padding-top: 8%;
+}
+
+.support-mentor {
+    width: 38vw;
+    height: 47vmin;
+    text-align: left;
+    color: white;
+    font-weight: 800;
+    font-size: 5vw;
+    background-color: #FCB809;
+    border-radius: 20px;
+    margin-right: 4%;
+    padding-left: 4%;
+    padding-top: 8%;
+}
+
+.support-img1 {
+    width: 32vw;
+    height: 39vmin;
+    margin-top: -16.5%;
+    padding-left: 13%;
+}
+
+.support-img2 {
+    width: 35vw;
+    height: 33vmin;
+    padding-left: 20%;
+}
+
+.contents {
+    width: 80vw;
+    height: auto;
+    margin-top: 10vmin;
+    margin-left: 10vmin;
+    position : absolute;
+    top: 76vmin;
+    bottom: 24vmin;
+    overflow-y: auto;
+    border-radius: 20px;
+    box-shadow: 0.1vmin 0.1vmin 5px 0.7vmin #d0d0d0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container-week-plan {
+    width: 68vw;
+    height: 40vmin;
+    line-height: 7vmin;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0.1vmin 0.1vmin 7px 0.7vmin #d0d0d0;
+    margin-top: 3vmin;
+}
+
+.logo {
+    width: 30%;
+    height: 50%;
+    opacity: 0.78;
+    margin-top: -3vmin;
+    padding-left: 46vw;
+    filter: opacity(0.5) drop-shadow(0 0 0 #00D2BD) contrast(40%) saturate(1000%);
+}
+
+.week-clock {
+    color: #00D2BD;
+    font-weight: 700;
+    font-size: 3.5vmin;
+    margin-top: -19vmin;
+    padding-top: 19vmin;
+    padding-left: 6vw;
+}
+
+.week-date {
+    color: black;
+    text-align: left;
+    font-weight: 800;
+    font-size: 7.3vmin;
+    padding-top: 6vmin;
+    padding-left: 6vw;
+}
+
+.week-plan {
+    color: black;
+    font-weight: 500;
+    font-size: 3.5vmin;
+    padding-top: 4vmin;
+    padding-left: 5vmin;
+}
+
+.title1 {
+    width: 34vw;
+    height: 10vmin;
+    font-size: 3vmin;
+    padding-top: 9vmin;
+    padding-right: 35.5vw;
+}
+
+.title2 {
+    width: 34vw;
+    height: 10vmin;
+    font-size: 2.9vmin;
+    padding-top: 11vmin;
+    padding-right: 35.5vw;
+}
+
+.container-study {
+    margin-top: 0.8vmin;
+    line-height:8.4vmin;
+    padding-left: 8vw;
+}
+
+.control-label {
+    font-size: 3.8vmin;
+}
+
+.sp-label {
+    font-weight:normal;
+}
+
+.sp-label input[type="checkbox"] {
+    margin-right: 3vw;
+}
+
+.sp-label input{
+    vertical-align:-1.3vw;
+}
+
+.check {
+    position: relative;
+    width: 5vw;
+    height: 5vmin;
+    border-radius: 2px;
+    appearance: none;
+    background-color: #bbb;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.check::before {
+    content: '';
+    position: absolute;
+    border: solid #fff;
+    display: block;
+    width: 1vw;
+    height: 2.5vmin;
+    border-width: 0 1vmin 1vmin 0;
+    z-index: 1;
+    opacity: 0;
+    left: 1.65vmin;
+    right: 1.5vmin;
+    top: 0.3vmin;
+    transform: rotate(0deg);
+    transition: background-color 0.2s ease-in-out;
+    transform-origin: center center;
+}
+
+.check:checked {
+    background-color: rgb(120, 190, 120);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.check:checked::before {
+    opacity: 1;
+    transform: rotate(39.3deg);
+    transition: background-color 0.2s ease-in-out;
+}
+
+@keyframes a {
+    0% {
+        opacity: 1;
+        transform: scale(1) rotateY(0deg);
+    }
+
+    50% {
+        opacity: 0;
+        transform: scale(.8) rotateY(180deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) rotateY(360deg);
+    }
+}
+
+.enter {
+    padding-bottom: 43vmin;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 9vmin;
+}
+
+.navbar input[type=radio] {
+    display: none;
+}
+
+.navbar-img {
+    width: 6vmin;
+    height: 10vmin;
+}
+
+.navbar input[type=radio] + label {
+    width: 19vmin;
+    height: 10vmin;
+    font-size: 1.6vh;
+    line-height: 2.5vh;
+    text-align: center;
+    margin-left: 2.3%;
+}
+
+.navbar input[type=radio]:checked + label {
+    color: #0f6048;
+    filter: opacity(0.5) drop-shadow(0 0 0 #00D2BD) contrast(40%) saturate(1000%);
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0 auto;
+    height: 0;
+    border-radius: 4px;
+    font-family: "Pretendard Variable", serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 6vw;
+    line-height: 8vmin;
+    padding: 10% 0 0 10%;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    padding-left: 4%;
+}
+
+.container {
+    padding-top: 15%;
+    text-align: center;
+}
+
+.row {
+    padding-top: 15%;
+}
+
+input:focus {outline: 1.5px solid #00d2bd;}
+
+input[type=text] {
+    width: 75vw;
+    height: 10vmin;
+    border: 1px solid #D4D6DA;
+}
+
+input[type=tel] {
+    width: 47vw;
+    height: 10vmin;
+    border: 1px solid #D4D6DA;
+    margin-right: 2%;
+}
+
+button[type=button] {
+    width: 25vw;
+    height: 11vmin;
+    font-size: 3.5vw;
+    background-color: #FAFAFB;
+    border: 0;
+}
+
+input[type=number] {
+    width: 75vw;
+    height: 10vmin;
+    border: 1px solid #D4D6DA;
+}
+
+.time {
+    color: red;
+    text-align: right;
+    font-size: 3.7vmin;
+    padding-top: 3vmin;
+    padding-right: 14vw;
+}
+
+.select {
+    padding-top: 12.5%;
+}
+
+.select input[type=radio] {
+    display: none;
+}
+
+.select input[type=radio] + label {
+    display: inline-block;
+    width: 38.5vw;
+    height: 11vmin;
+    border: 1px solid #D4D6DA;
+    line-height: 11vmin;
+    font-weight: 400;
+    font-size: 3.5vw;
+    margin-right: 0.5%;
+}
+
+.select input[type=radio]:checked + label {
+    border: 1.5px solid #00d2bd;
+}
+
+button[type=submit] {
+    position: absolute;
+    width: 80vw;
+    height: 12vmin;
+    border: 0;
+    border-radius: 6px;
+    background-color: #00D2BD;
+    color: white;
+    font-size: 3.5vw;
+    bottom: 13vmin;
+    left: 10%;
+}

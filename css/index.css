@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+    height: 0;
+    font-family: "Pretendard Variable", serif;
+}
+
+.container-student {
+    width: auto;
+    height: auto;
+    padding-top: 5%;
+}
+
+.student-background {
+    position: relative;
+    width: 90vw;
+    height: 45vh;
+    border: 1px solid #00D2BD;
+    border-radius: 20px;
+    background-color: #00D2BD;
+}
+
+.student-image {
+    width: 94%;
+    height: 85%;
+    object-fit: cover;
+    position: absolute;
+    vertical-align: bottom;
+    left: 5vw;
+    bottom: -1.6vh;
+}
+
+.container-login {
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    bottom: 6vh;
+    padding-top: 45%;
+    padding-left: 5%;
+}
+
+button[type=button] {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 6vw;
+    word-spacing: 2px;
+    padding: 7% 0 20% 8%;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 4.3vw;
+    word-spacing: 3px;
+    line-height: 130%;
+    padding-left: 8%;
+}

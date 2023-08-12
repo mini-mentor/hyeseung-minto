@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/signup.css"/>
+    <link rel="stylesheet" as="style" crossorigin
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css"/>
+
+    <title>회원가입</title>
+</head>
+<body>
+<h1>문자인증 1번만 하면 <br> 가입이 완료돼요!</h1>
+<form method="post" action="">
+    <div class="container">
+        <div class="row">
+            <input type="text" name="user_name" autofocus>
+        </div>
+
+        <div class="row">
+            <input type="tel" name="user_phone">
+            <button type="button">인증 받기</button>
+        </div>
+
+        <div class="row">
+            <input type="number" value="certification-number">
+        </div>
+
+        <div class="time">2:32</div>
+
+        <div class="select">
+            <input type="radio" id="select1" name="gender" value="여자" checked><label for="select1">여자</label>
+            <input type="radio" id="select2" name="gender" value="남자"><label for="select2">남자</label>
+        </div>
+    </div>
+
+    <button type="submit">다음</button>
+</form>
+</body>
+</html>
