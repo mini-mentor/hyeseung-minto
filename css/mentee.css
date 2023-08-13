@@ -79,11 +79,11 @@ h4 {
 }
 
 h5 {
-    margin-left: 47vw;
-    margin-top: 2.2vmin;
+    margin-left: 46vw;
+    margin-top: 2vmin;
     color: #00D2BD;
     opacity: 70%;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 3.3vmin;
 }
 
@@ -137,6 +137,11 @@ input:focus {
 input::placeholder {
     color: #c2c2c2;
     font-weight: 300;
+}
+
+select:focus {
+    outline: none !important;
+    border: 1.4px solid #00D2BD;
 }
 
 textarea:focus {
