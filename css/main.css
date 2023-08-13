@@ -8,7 +8,7 @@
 .search-text {
     z-index: 0;
     text-align: center;
-    padding-top: 12%;
+    padding-top: 12vmin;
 }
 
 input[type=text] {
@@ -44,7 +44,7 @@ button {
     width: 8vmin;
     height: 8vmin;
     margin-left: 80vw;
-    padding-top: 2vh;
+    padding-top: 3.3vmin;
     z-index: 99999;
 }
 
@@ -188,6 +188,11 @@ button {
 
 .sp-label input{
     vertical-align:-1.3vw;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1.4px solid #00D2BD;
 }
 
 .check {

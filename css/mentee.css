@@ -20,19 +20,20 @@ img {
 
 h1 {
     font-weight: 800;
-    font-size: 7vw;
+    font-size: 7vmin;
     word-spacing: 2px;
     margin-left: 10vw;
 }
 
 .container-form {
-    width: 99vw;
-    height: 140vmin;
-    margin-top: 13vmin;
     position : absolute;
+    width: 99vw;
+    height: auto;
+    margin-top: 10vmin;
     top: 34vmin;
     overflow-y: auto;
     border-radius: 20px;
+    bottom: 30vmin;
 }
 
 ::-webkit-scrollbar {
@@ -43,9 +44,10 @@ h1 {
     width: 35vw;
     height: 12vmin;
     border-radius: 3.5px;
-    border: 1px solid #ababab;
+    border: 1px solid #dcdcdc;
     margin-left: 12vw;
     padding-left: 4vw;
+    font-size: 1.5vh;
 }
 
 .grade {
@@ -53,40 +55,45 @@ h1 {
     height: 13vmin;
     margin-left: 2vw;
     border-radius: 3.5px;
-    border: 1px solid #ababab;
+    border: 1px solid #dcdcdc;
     padding-left: 2vw;
-    padding-right: 20vw;
+    font-size: 1.5vh;
 }
 
 .school {
     width: 70vw;
     height: 13vmin;
-    border: 1px solid #ababab;
+    border: 1px solid #dcdcdc;
     margin-left: 12vw;
     margin-top: 3vmin;
     border-radius: 3.5px;
     padding-left: 4vw;
+    font-size: 1.5vh;
 }
 
 h4 {
     margin-left: 12vw;
     margin-top: 15vmin;
     color: #4b4b4b;
+    font-size: 5.2vmin;
 }
 
 h5 {
-    font-weight: 500;
-    margin-left: 38vw;
-    margin-top: 0.8vmin;
-    color: #9c9c9c;
+    margin-left: 47vw;
+    margin-top: 2.2vmin;
+    color: #00D2BD;
+    opacity: 70%;
+    font-weight: 300;
+    font-size: 3.3vmin;
 }
 
 .motive {
     width: 73vw;
     height: 35vmin;
-    margin-top: 7vmin;
+    margin-top: 10vmin;
     margin-left: 12vw;
-    border: 1px solid #ababab;
+    border-radius: 3.5px;
+    border: 1px solid #dcdcdc;
 }
 
 .photo1 {
@@ -95,7 +102,9 @@ h5 {
     margin-top: 10vmin;
     margin-left: 12vw;
     padding-left: 5vw;
-    border: 1px solid #ababab;
+    border-radius: 3.5px;
+    border: 1px solid #dcdcdc;
+    font-size: 1.5vh;
 }
 
 .photo2 {
@@ -104,7 +113,9 @@ h5 {
     margin-top: 3vmin;
     margin-left: 12vw;
     padding-left: 5vw;
-    border: 1px solid #ababab;
+    border: 1px solid #dcdcdc;
+    border-radius: 3.5px;
+    font-size: 1.5vh;
 }
 
 .photo3 {
@@ -113,7 +124,24 @@ h5 {
     margin-top: 3vmin;
     margin-left: 12vw;
     padding-left: 5vw;
-    border: 1px solid #ababab;
+    border-radius: 3.5px;
+    border: 1px solid #dcdcdc;
+    font-size: 1.5vh;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1.4px solid #00D2BD;
+}
+
+input::placeholder {
+    color: #c2c2c2;
+    font-weight: 300;
+}
+
+textarea:focus {
+    outline: none !important;
+    border: 1.4px solid #00D2BD;
 }
 
 button[type=submit] {
@@ -124,7 +152,7 @@ button[type=submit] {
     border-radius: 6px;
     background-color: #00D2BD;
     color: white;
-    font-size: 3.5vw;
+    font-size: 3.5vmin;
     bottom: 12vmin;
     left: 10%;
 }
