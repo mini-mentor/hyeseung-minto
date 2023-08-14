@@ -14,6 +14,11 @@ mentor.addEventListener('click', () => {
     console.log(3);
 });
 
+const edit = document.getElementById("edit");
+edit.addEventListener('click', () => {
+   console.log(4);
+});
+
 // 현재 날짜 가져오기
 var currentDate = new Date();
 

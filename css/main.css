@@ -33,6 +33,17 @@ button {
     background-color: transparent;
 }
 
+.edit-assignment {
+    width: 1vmin;
+    height: 1vmin;
+    margin-left: 58vw;
+}
+.edit-assignment-img {
+    width: 6vmin;
+    height: auto;
+    opacity: 30%;
+}
+
 .support {
     padding-top: 11vmin;
     text-align: center;
@@ -157,15 +168,15 @@ button {
     height: 10vmin;
     font-size: 3vmin;
     padding-top: 9vmin;
-    padding-right: 35.5vw;
+    padding-right: 33vw;
 }
 
 .title2 {
     width: 34vw;
     height: 10vmin;
     font-size: 2.9vmin;
-    padding-top: 11vmin;
-    padding-right: 35.5vw;
+    padding-top: 14vmin;
+    padding-right: 33vw;
 }
 
 .container-study {
