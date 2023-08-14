@@ -186,6 +186,7 @@ button {
 }
 
 .control-label {
+    display: inline-flex;
     font-size: 3.8vmin;
 }
 
@@ -214,6 +215,7 @@ input:focus {
     appearance: none;
     background-color: #bbb;
     transition: background-color 0.1s ease-in-out;
+    margin-top: 1.4vmin;
 }
 
 .check::before {

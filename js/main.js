@@ -14,10 +14,24 @@ mentor.addEventListener('click', () => {
     console.log(3);
 });
 
+const homework1 = document.getElementById("homework1");
+const homework2 = document.getElementById("homework2");
+const homework3 = document.getElementById("homework3");
+const homework4 = document.getElementById("homework4");
+
 const edit = document.getElementById("edit");
 edit.addEventListener('click', () => {
-   console.log(4);
+    localStorage.setItem("과제1", homework1.textContent);
+    localStorage.setItem("과제2", homework2.textContent);
+    localStorage.setItem("과제3", homework3.textContent);
+    localStorage.setItem("과제4", homework4.textContent);
+    location.href = "http://127.0.0.1:8080/homework.html"
 });
+
+homework1.innerText = localStorage.getItem("과제수정1");
+homework2.innerText = localStorage.getItem("과제수정2");
+homework3.innerText = localStorage.getItem("과제수정3");
+homework4.innerText = localStorage.getItem("과제수정4");
 
 // 현재 날짜 가져오기
 var currentDate = new Date();

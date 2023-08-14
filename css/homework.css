@@ -1,0 +1,90 @@
+* {
+    margin: 0 auto;
+    height: 0;
+    border: 0;
+    font-family: "Pretendard Variable", serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 7vmin;
+    word-spacing: 2px;
+    margin-left: 10vw;
+}
+
+.back-btn {
+    width: 10vw;
+    height: 20vmin;
+    margin-left: 8vw;
+    margin-top: 10vmin;
+    background-color: transparent;
+}
+
+.container-form {
+    position : absolute;
+    width: 99vw;
+    height: auto;
+    margin-top: 10vmin;
+    top: 36vmin;
+    overflow-y: auto;
+    border-radius: 20px;
+    bottom: 30vmin;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.close-btn {
+    width: 9vw;
+    height: 5vmin;
+    margin-left: 3vw;
+    background-color: transparent;
+}
+
+.add-btn {
+    width: 9vw;
+    height: auto;
+    background-color: transparent;
+    margin-left: 80.6vw;
+    margin-top: 1.5vmin;
+}
+
+input[type=text] {
+    width: 60vw;
+    height: 13vmin;
+    border: 1px solid #dcdcdc;
+    margin-left: 12vw;
+    margin-top: 3vmin;
+    border-radius: 3.5px;
+    padding-left: 4vw;
+    font-size: 1.5vh;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1.4px solid #00D2BD;
+}
+
+input::placeholder {
+    color: #c2c2c2;
+    font-weight: 300;
+}
+
+button[type=submit] {
+    position: absolute;
+    width: 80vw;
+    height: 12vmin;
+    border: 0;
+    border-radius: 6px;
+    background-color: #00D2BD;
+    color: white;
+    font-size: 3.5vmin;
+    bottom: 12vmin;
+    left: 10%;
+}
