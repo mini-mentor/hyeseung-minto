@@ -18,11 +18,19 @@ img {
     background-color: transparent;
 }
 
-h1 {
+.h1 {
+    font-weight: 800;
+    font-size: 6.9vmin;
+    word-spacing: 2px;
+    margin-left: 11vw;
+    color: #00D2BD;
+}
+
+.h2 {
     font-weight: 800;
     font-size: 7vmin;
     word-spacing: 2px;
-    margin-left: 10vw;
+    margin-left: 23vw;
 }
 
 .container-form {
